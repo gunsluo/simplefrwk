@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^admin\/(.*)$    frwk/    [L]
+    RewriteRule    ^customer\/(.*)$    frwk/    [L]
+    ErrorDocument 404   /404.html
+</IfModule>
